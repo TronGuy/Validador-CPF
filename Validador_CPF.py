@@ -15,7 +15,7 @@ cpf = input('Digite o seu cpf:').strip()
 #verificação
 if len(cpf) == 11 and cpf.isnumeric():
   
-  #tranformação de entrada de String para Lista/vetor
+  #transformação de entrada de String para Lista/Vetor
   cpf_vet = list(cpf)
   #declaração das variáveis
   resultado1 = 0
